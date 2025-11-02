@@ -40,8 +40,6 @@ Titweng is a comprehensive digital cattle identification framework designed to m
 ## SMS, Email, Reciept Screenshots
 <img width="1376" height="766" alt="Screenshot 2025-11-02 at 2 46 46 pm" src="https://github.com/user-attachments/assets/417d0a09-6a14-4f6c-b446-f343696b88cf" />
 
-![Screenshot_20251102_145526_Messages](https://github.com/user-attachments/assets/794ec88f-eea4-4755-9692-7f0832a31f30)
-
 ![Screenshot_20251102_150213_Messages](https://github.com/user-attachments/assets/4690c8d6-6bc9-43bd-88f2-7a284072a34c)
 
 

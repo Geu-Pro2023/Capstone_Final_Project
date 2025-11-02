@@ -23,8 +23,8 @@ Titweng is a comprehensive digital cattle identification framework designed to m
 **[📹 5-Minute Demo Video](https://youtu.be/demo-link)** - Core functionality demonstration
 
 ## 🚀 Live Deployment
-- **Admin Dashboard**: [https://titweng-admin.vercel.app](https://titweng-admin.vercel.app)
-- **Backend API**: [https://titweng-api.herokuapp.com](https://titweng-api.herokuapp.com)
+- **Admin Dashboard**: [https://titweng.netlify.app](https://titweng.netlify.app)
+- **Backend API**: [https://titweng-app-a3hufygwcphxhkc2.canadacentral-01.azurewebsites.net](https://titweng-app-a3hufygwcphxhkc2.canadacentral-01.azurewebsites.net)
 - **Mobile APK**: [Download Android App](https://github.com/Geu-Pro2023/Capstone_Final_Project/releases/download/v1.0.0/titweng-v1.0.0.apk)
 
 ## 🔧 Technology Stack
@@ -33,7 +33,7 @@ Titweng is a comprehensive digital cattle identification framework designed to m
 - **Backend API**: FastAPI + Python 3.8+
 - **Database**: PostgreSQL + pgvector
 - **ML Models**: YOLOv8 + Siamese CNN
-- **Deployment**: Vercel + Heroku
+- **Deployment**: Netlify + Azure
 
 ## 🚀 Installation & Setup
 
@@ -154,22 +154,22 @@ CREATE EXTENSION IF NOT EXISTS vector;
 
 ### Production Deployment Steps
 
-#### 1. Backend Deployment (Heroku)
+#### 1. Backend Deployment (Azure)
 ```bash
-# Install Heroku CLI and login
-heroku create titweng-api
-heroku config:set DATABASE_URL=postgresql://...
-heroku config:set ADMIN_USERNAME=admin
-heroku config:set ADMIN_PASSWORD=secure_password
-git subtree push --prefix backend heroku main
+# Install Azure CLI and login
+az login
+az webapp create --resource-group titweng-rg --plan titweng-plan --name titweng-app
+az webapp config appsettings set --name titweng-app --resource-group titweng-rg --settings DATABASE_URL=postgresql://...
+az webapp deployment source config-zip --name titweng-app --resource-group titweng-rg --src backend.zip
 ```
 
-#### 2. Frontend Deployment (Vercel)
+#### 2. Frontend Deployment (Netlify)
 ```bash
 cd admin_dashboard
-vercel --prod
-# Set environment variables in Vercel dashboard:
-# VITE_API_URL=https://titweng-api.herokuapp.com
+npm run build
+# Deploy to Netlify via drag-and-drop or CLI
+# Set environment variables in Netlify dashboard:
+# VITE_API_URL=https://titweng-app-a3hufygwcphxhkc2.canadacentral-01.azurewebsites.net
 ```
 
 #### 3. Database Setup (Production)

@@ -23,6 +23,15 @@ Titweng is a comprehensive digital cattle identification framework designed to m
 ## 🎥 Demo Video
 **[📹 5-Minute Demo Video](https://youtu.be/demo-link)** - Core functionality demonstration
 
+## Screenshot Highlights
+<img width="1438" height="697" alt="Screenshot 2025-11-02 at 2 27 04 pm" src="https://github.com/user-attachments/assets/c39f41a7-0cdc-468a-8126-86cd8b19c1ad" />
+
+<img width="1440" height="699" alt="Screenshot 2025-11-02 at 2 27 52 pm" src="https://github.com/user-attachments/assets/bd776333-3a5b-466f-b6db-6402b3984b43" />
+
+<img width="1440" height="700" alt="Screenshot 2025-11-02 at 2 39 00 pm" src="https://github.com/user-attachments/assets/9f6c776d-a95e-4360-a4c0-870b7fcf6100" />
+
+
+
 ## 🚀 Live Deployment
 - **Admin Dashboard**: [https://titweng.netlify.app](https://titweng.netlify.app)
 - **Backend API**: [https://titweng-app-a3hufygwcphxhkc2.canadacentral-01.azurewebsites.net](https://titweng-app-a3hufygwcphxhkc2.canadacentral-01.azurewebsites.net)

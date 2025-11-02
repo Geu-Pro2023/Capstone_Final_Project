@@ -1,8 +1,8 @@
-# 🐄 Titweng: A Digital Cattle Identification Framework for Mitigating Raiding and Enhancing Market Trust in South Sudan
+# Titweng: A Digital Cattle Identification Framework for Mitigating Raiding and Enhancing Market Trust in South Sudan
 
 **Biometric nose print recognition system that prevents cattle theft, resolves ownership disputes, and builds trust in livestock markets through secure digital identification.**
 
-## 🎯 Project Overview
+## Project Overview
 
 ### Problem Statement
 South Sudan's livestock sector faces endemic cattle raiding and ownership disputes due to the absence of reliable cattle identification systems. Traditional methods and oral testimony create verification failures, allowing stolen cattle to enter markets with impunity and perpetuating cycles of conflict and economic loss.
@@ -22,12 +22,12 @@ Titweng is a comprehensive digital cattle identification framework designed to m
 ## 🎥 Demo Video
 **[📹 5-Minute Demo Video](https://youtu.be/demo-link)** - Core functionality demonstration
 
-## 🚀 Live Deployment
+## Live Deployment
 - **Admin Dashboard**: [https://titweng-admin.vercel.app](https://titweng-admin.vercel.app)
 - **Backend API**: [https://titweng-api.herokuapp.com](https://titweng-api.herokuapp.com)
 - **Mobile APK**: [Download Android App](https://github.com/Geu-Pro2023/Capstone_Final_Project/releases/download/v1.0.0/titweng-v1.0.0.apk)
 
-## 🔧 Technology Stack
+## Technology Stack
 - **Mobile App**: Flutter 3.0+ (Android/iOS)
 - **Admin Dashboard**: React 18 + TypeScript
 - **Backend API**: FastAPI + Python 3.8+
@@ -35,7 +35,7 @@ Titweng is a comprehensive digital cattle identification framework designed to m
 - **ML Models**: YOLOv8 + Siamese CNN
 - **Deployment**: Vercel + Heroku
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.8+, Node.js 16+, Flutter 3.0+, PostgreSQL 12+
@@ -84,7 +84,7 @@ CREATE EXTENSION IF NOT EXISTS vector;
 ### Testing Strategy 1: Functional Testing
 | Test Case | Input Data | Expected Result | Actual Result | Status |
 |-----------|------------|-----------------|---------------|---------|
-| Valid Registration | 3-5 nose images, owner details | Success + Certificate | ✅ Success + PDF generated | ✅ PASS |
+| Valid Registration | 3-5 nose images, owner details | Success + Certificate | ✅  Success + PDF generated | ✅ PASS |
 | Invalid Images | Blurry/dark images | Error message | ❌ "Image quality too low" | ✅ PASS |
 | Duplicate Registration | Same cow twice | Duplicate detection | ⚠️ "Similar cow found (85% match)" | ✅ PASS |
 
@@ -112,7 +112,7 @@ CREATE EXTENSION IF NOT EXISTS vector;
 
 **Cross-Validation Results**: 93.4% ± 0.5% average accuracy across 5 folds
 
-## 📊 Analysis
+## Analysis
 
 ### Objectives Achievement Analysis
 

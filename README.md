@@ -37,6 +37,13 @@ Titweng is a comprehensive digital cattle identification framework designed to m
 - **Backend API**: [https://titweng-app-a3hufygwcphxhkc2.canadacentral-01.azurewebsites.net](https://titweng-app-a3hufygwcphxhkc2.canadacentral-01.azurewebsites.net)
 - **Mobile APK**: [Download Android App](https://github.com/Geu-Pro2023/Capstone_Final_Project/releases/download/v1.0.0/titweng-v1.0.0.apk)
 
+## SMS, Email, Reciept Screenshots
+<img width="1376" height="766" alt="Screenshot 2025-11-02 at 2 46 46 pm" src="https://github.com/user-attachments/assets/417d0a09-6a14-4f6c-b446-f343696b88cf" />
+
+![Screenshot_20251102_145526_Messages](https://github.com/user-attachments/assets/794ec88f-eea4-4755-9692-7f0832a31f30)
+
+
+
 ## 🔧 Technology Stack
 - **Mobile App**: Flutter 3.0+ (Android/iOS)
 - **Admin Dashboard**: React 18 + TypeScript

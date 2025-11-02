@@ -1,4 +1,6 @@
-# 🐄 Titweng: Cattle Identification Framework for Mitigating Raiding and Enhancing Market Trust in South Sudan
+# Capstone Final Project
+
+### Titweng: Cattle Identification Framework for Mitigating Raiding and Enhancing Market Trust in South Sudan
 
 **Biometric nose print recognition system that prevents cattle theft, resolves ownership disputes, and builds trust in livestock markets through secure digital identification.**
 

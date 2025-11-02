@@ -23,8 +23,8 @@ Titweng is a comprehensive digital cattle identification framework designed to m
 **[📹 5-Minute Demo Video](https://youtu.be/demo-link)** - Core functionality demonstration
 
 ## Live Deployment
-- **Admin Dashboard**: [https://titweng-admin.vercel.app](https://titweng-admin.vercel.app)
-- **Backend API**: [https://titweng-api.herokuapp.com](https://titweng-api.herokuapp.com)
+- **Admin Dashboard**: [https://https://titweng.netlify.app/login](https://titweng.netlify.app)
+- **FastAPI Backend**: [https://titweng-api.herokuapp.com](titweng-app-a3hufygwcphxhkc2.canadacentral-01.azurewebsites.net)
 - **Mobile APK**: [Download Android App](https://github.com/Geu-Pro2023/Capstone_Final_Project/releases/download/v1.0.0/titweng-v1.0.0.apk)
 
 ## Technology Stack
@@ -192,7 +192,7 @@ flutter build apk --release --split-per-abi
 - **Monitoring**: Error tracking and uptime monitoring configured
 - **Backup Strategy**: Daily automated database backups
 
-## 📞 Contact
+## Contact
 - **Project Lead**: Geu Aguto Titweng
 - **Email**: g.bior@alustudent.com
 - **GitHub**: [@Geu-Pro2023](https://github.com/Geu-Pro2023)

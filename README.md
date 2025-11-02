@@ -42,6 +42,9 @@ Titweng is a comprehensive digital cattle identification framework designed to m
 
 ![Screenshot_20251102_145526_Messages](https://github.com/user-attachments/assets/794ec88f-eea4-4755-9692-7f0832a31f30)
 
+![Screenshot_20251102_150213_Messages](https://github.com/user-attachments/assets/4690c8d6-6bc9-43bd-88f2-7a284072a34c)
+
+
 
 
 ## 🔧 Technology Stack

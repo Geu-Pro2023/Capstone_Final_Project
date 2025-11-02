@@ -4,7 +4,11 @@
 
 ## 🎯 Project Overview
 
-Titweng revolutionizes livestock management in South Sudan through cutting-edge biometric technology. The system uses cattle nose print recognition - as unique as human fingerprints - to provide secure, reliable identification and ownership verification. This addresses critical challenges of cattle theft, ownership disputes, and lack of digital livestock records in rural communities.
+### Problem Statement
+South Sudan's livestock sector faces endemic cattle raiding and ownership disputes due to the absence of reliable cattle identification systems. Traditional methods and oral testimony create verification failures, allowing stolen cattle to enter markets with impunity and perpetuating cycles of conflict and economic loss.
+
+### Solution
+Titweng revolutionizes livestock management through cutting-edge biometric technology. The system uses cattle nose print recognition - as unique as human fingerprints - to provide secure, reliable identification and ownership verification, creating verifiable digital proof of ownership to deter theft and resolve disputes.
 
 ### ✨ Key Features
 - **🔍 Biometric Registration**: Capture and register cattle nose prints with 93.4% accuracy

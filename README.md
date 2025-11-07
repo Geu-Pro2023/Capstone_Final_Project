@@ -11,17 +11,17 @@ South Sudan's livestock sector faces endemic cattle raiding and ownership disput
 ### Solution
 Titweng is a comprehensive digital cattle identification framework designed to mitigate raiding and enhance market trust in South Sudan. By leveraging biometric nose print recognition - as unique as human fingerprints - the system creates tamper-proof digital identities for cattle, enabling secure ownership verification and building confidence in livestock markets. This framework transforms cattle from untraceable assets into digitally verified commodities, making theft unprofitable and disputes resolvable through objective evidence.
 
-### ✨ Key Features
-- **🔍 Biometric Registration**: Capture and register cattle nose prints with 93.4% accuracy
-- **⚡ Real-time Verification**: Instant cattle identification in under 3 seconds
-- **📱 Cross-platform Access**: Mobile app (Android/iOS) and web dashboard
-- **🏆 Digital Certificates**: QR-coded ownership certificates with PDF generation
-- **🔒 Secure Database**: PostgreSQL with vector embeddings for scalable matching
-- **📧 Automated Notifications**: Email/SMS alerts for registrations and transfers
-- **📊 Analytics Dashboard**: Real-time monitoring and reporting for administrators
+### Key Features
+- **Biometric Registration**: Capture and register cattle nose prints with 93.4% accuracy
+- **Real-time Verification**: Instant cattle identification in under 3 seconds
+- **Cross-platform Access**: Mobile app (Android/iOS) and web dashboard
+- **Digital Certificates**: QR-coded ownership certificates with PDF generation
+- **Secure Database**: PostgreSQL with vector embeddings for scalable matching
+- **Automated Notifications**: Email/SMS alerts for registrations and transfers
+- **Analytics Dashboard**: Real-time monitoring and reporting for administrators
 
-## 🎥 Demo Video
-**[📹 Final Product Demo Video](https://youtu.be/vWoJQfEv-Ag?si=QKh114vDUxxcza9D)**
+## Demo Video
+**[ Final Product Demo Video](https://youtu.be/vWoJQfEv-Ag?si=QKh114vDUxxcza9D)**
 
 ## Screenshot Highlights
 <img width="1438" height="697" alt="Screenshot 2025-11-02 at 2 27 04 pm" src="https://github.com/user-attachments/assets/c39f41a7-0cdc-468a-8126-86cd8b19c1ad" />
@@ -32,7 +32,7 @@ Titweng is a comprehensive digital cattle identification framework designed to m
 
 
 
-## 🚀 Live Deployment
+## Live Deployment
 - **Admin Dashboard**: [https://www.titweng.com](https://titweng.netlify.app/login)
 - **Mobile APK**: [Download Android App](https://github.com/Geu-Pro2023/Capstone_Final_Project/releases/download/v1.0.0/titweng-v1.0.0.apk)
 
@@ -44,7 +44,7 @@ Titweng is a comprehensive digital cattle identification framework designed to m
 
 
 
-## 🔧 Technology Stack
+## Technology Stack
 - **Mobile App**: Flutter 3.0+ (Android/iOS)
 - **Admin Dashboard**: React 18 + TypeScript
 - **Backend API**: FastAPI + Python 3.8+
@@ -52,7 +52,7 @@ Titweng is a comprehensive digital cattle identification framework designed to m
 - **ML Models**: YOLOv8 + Siamese CNN
 - **Deployment**: Netlify + Azure
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.8+, Node.js 16+, Flutter 3.0+, PostgreSQL 12+
@@ -96,43 +96,43 @@ CREATE DATABASE titweng;
 CREATE EXTENSION IF NOT EXISTS vector;
 ```
 
-## 🧪 Testing Results
+## Testing Results
 
 ### Testing Strategy 1: Functional Testing
 | Test Case | Input Data | Expected Result | Actual Result | Status |
 |-----------|------------|-----------------|---------------|---------|
-| Valid Registration | 3-5 nose images, owner details | Success + Certificate | ✅ Success + PDF generated | ✅ PASS |
-| Invalid Images | Blurry/dark images | Error message | ❌ "Image quality too low" | ✅ PASS |
-| Duplicate Registration | Same cow twice | Duplicate detection | ⚠️ "Similar cow found (85% match)" | ✅ PASS |
+| Valid Registration | 3-5 nose images, owner details | Success + Certificate |  Success + PDF generated |  PASS |
+| Invalid Images | Blurry/dark images | Error message |  "Image quality too low" | PASS |
+| Duplicate Registration | Same cow twice | Duplicate detection |  "Similar cow found (85% match)" |  PASS |
 
 ### Testing Strategy 2: Performance Testing
 | Test Case | Concurrent Users | Response Time (avg) | Success Rate | CPU Usage | Memory Usage | Status |
 |-----------|------------------|---------------------|--------------|-----------|--------------|--------|
-| Light Load | 10 users | 1.2s | 100% | 45% | 2.1GB | ✅ PASS |
-| Medium Load | 50 users | 2.8s | 98% | 78% | 3.4GB | ✅ PASS |
-| Heavy Load | 100 users | 4.5s | 95% | 92% | 4.8GB | ✅ PASS |
-| Stress Test | 150 users | 7.2s | 89% | 98% | 6.1GB | ⚠️ DEGRADED |
-| Peak Load | 200 users | 12.1s | 76% | 100% | 7.8GB | ❌ FAIL |
+| Light Load | 10 users | 1.2s | 100% | 45% | 2.1GB | PASS |
+| Medium Load | 50 users | 2.8s | 98% | 78% | 3.4GB |  PASS |
+| Heavy Load | 100 users | 4.5s | 95% | 92% | 4.8GB |  PASS |
+| Stress Test | 150 users | 7.2s | 89% | 98% | 6.1GB |  DEGRADED |
+| Peak Load | 200 users | 12.1s | 76% | 100% | 7.8GB |  FAIL |
 
 ### Testing Strategy 3: Hardware Performance Testing
 | Test Case | Device Specification | Registration Time | Verification Time | App Launch Time | Status |
 |-----------|---------------------|-------------------|-------------------|-----------------|--------|
-| Premium Device | iPhone 14 Pro (8GB RAM, A16) | 3.2s | 1.8s | 2.1s | ✅ PASS |
-| High-end Android | Samsung S23 (8GB RAM, Snapdragon 8) | 3.5s | 2.0s | 2.4s | ✅ PASS |
-| Mid-range Device | Samsung A54 (6GB RAM, Exynos 1380) | 5.1s | 2.9s | 3.4s | ✅ PASS |
-| Budget Device | Redmi Note 11 (4GB RAM, Snapdragon 680) | 6.8s | 3.7s | 4.2s | ✅ PASS |
-| Low-end Device | Android Go (2GB RAM, Unisoc Tiger) | 8.7s | 4.2s | 5.8s | ⚠️ SLOW |
+| Premium Device | iPhone 14 Pro (8GB RAM, A16) | 3.2s | 1.8s | 2.1s |  PASS |
+| High-end Android | Samsung S23 (8GB RAM, Snapdragon 8) | 3.5s | 2.0s | 2.4s |  PASS |
+| Mid-range Device | Samsung A54 (6GB RAM, Exynos 1380) | 5.1s | 2.9s | 3.4s |  PASS |
+| Budget Device | Redmi Note 11 (4GB RAM, Snapdragon 680) | 6.8s | 3.7s | 4.2s |  PASS |
+| Low-end Device | Android Go (2GB RAM, Unisoc Tiger) | 8.7s | 4.2s | 5.8s |  SLOW |
 
 ### Testing Strategy 4: Accuracy Testing with Different Data Values
 | Test Case | Data Variation | Sample Size | True Positive Rate | False Positive Rate | F1-Score | Status |
 |-----------|----------------|-------------|-------------------|-------------------|----------|--------|
-| Optimal Lighting | Bright daylight conditions | 500 images | 94.2% | 2.1% | 0.96 | ✅ PASS |
-| Low Light | Indoor/evening conditions | 300 images | 89.7% | 4.3% | 0.92 | ✅ PASS |
-| Variable Angles | Front, side, angled shots | 300 images | 91.8% | 3.4% | 0.94 | ✅ PASS |
-| High Quality | 4K camera, clear images | 400 images | 96.1% | 1.8% | 0.97 | ✅ PASS |
-| Compressed Images | Low resolution, compressed | 400 images | 89.5% | 4.2% | 0.92 | ✅ PASS |
-| Young Cattle | Calves under 1 year | 200 images | 87.3% | 5.1% | 0.91 | ✅ PASS |
-| Mature Cattle | Adult cattle over 3 years | 200 images | 92.8% | 2.9% | 0.95 | ✅ PASS |
+| Optimal Lighting | Bright daylight conditions | 500 images | 94.2% | 2.1% | 0.96 |  PASS |
+| Low Light | Indoor/evening conditions | 300 images | 89.7% | 4.3% | 0.92 |  PASS |
+| Variable Angles | Front, side, angled shots | 300 images | 91.8% | 3.4% | 0.94 |  PASS |
+| High Quality | 4K camera, clear images | 400 images | 96.1% | 1.8% | 0.97 |  PASS |
+| Compressed Images | Low resolution, compressed | 400 images | 89.5% | 4.2% | 0.92 |  PASS |
+| Young Cattle | Calves under 1 year | 200 images | 87.3% | 5.1% | 0.91 |  PASS |
+| Mature Cattle | Adult cattle over 3 years | 200 images | 92.8% | 2.9% | 0.95 |  PASS |
 
 **Cross-Validation Results**: 93.4% ± 0.5% average accuracy across 5 folds
 
@@ -140,7 +140,7 @@ CREATE EXTENSION IF NOT EXISTS vector;
 
 ### Objectives Achievement Analysis
 
-#### ✅ Successfully Achieved Objectives (100%)
+####  Successfully Achieved Objectives (100%)
 1. **Biometric Identification System**
    - Implemented YOLOv8 for nose detection with 94.2% accuracy
    - Developed Siamese CNN for embedding generation
@@ -156,13 +156,13 @@ CREATE EXTENSION IF NOT EXISTS vector;
    - Concurrent user support up to 100 users
    - Real-time database updates and notifications
 
-#### ⚠️ Partially Achieved Objectives (70%)
+####  Partially Achieved Objectives (70%)
 1. **Offline Functionality**
    - Mobile app supports offline image capture
    - Limited offline verification capability
    - **Gap**: Full offline processing requires optimization
 
-#### ❌ Missed Objectives (0%)
+####  Missed Objectives (0%)
 1. **Blockchain Integration**
    - **Reason**: Technical complexity exceeded project timeline
    - **Impact**: Reduced decentralization features
@@ -174,7 +174,7 @@ CREATE EXTENSION IF NOT EXISTS vector;
 - **Scalability**: Successfully handles 100 concurrent users
 - **Reliability**: 98% uptime during testing period
 
-## 🚀 Deployment
+##  Deployment
 
 ### Production Deployment Steps
 
@@ -216,7 +216,7 @@ flutter build apk --release --split-per-abi
 - **Monitoring**: Error tracking and uptime monitoring configured
 - **Backup Strategy**: Daily automated database backups
 
-## 📞 Contact
+##  Contact
 - **Project Lead**: Geu Aguto Titweng
 - **Email**: g.bior@alustudent.com
 - **GitHub**: [@Geu-Pro2023](https://github.com/Geu-Pro2023)
